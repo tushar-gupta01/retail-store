@@ -17,7 +17,7 @@ The Retail Store Billing System is a Java-based application that calculates the 
 
 ### Class Diagram
 
-![Class Diagram](src/main/resources/public/UML Class Diagram.png)
+![Class Diagram](https://github.com/tushar-gupta01/retail-store/blob/main/src/main/resources/public/UML%20Class%20Diagram.png?raw=true)
 
 
 ### Bean Classes
@@ -37,7 +37,7 @@ The `Bill` class represents a bill generated for a user's purchase, including `b
 
 - It implements the IBillGeneratorService interface, defining methods for calculating the total amount, discounts, and net payable amount for a given bill.
 
-####`Methods`
+#### `Methods`
 1. `calculateGroceryAmount(Bill bill)`
 
    This method calculates the total amount of grocery items in the given bill.
@@ -98,7 +98,7 @@ Follow these steps to run the Retail Store Billing System on your local machine:
 
 #### `Prerequisites`
 
-- Java Development Kit (JDK) installed
+- Java Development Kit 17 (JDK) installed
 - Integrated Development Environment (IDE) such as IntelliJ or Eclipse or Spring Tool Suite
 - Maven for building the project
 - SonarQube for running the sonar server
@@ -107,7 +107,7 @@ Follow these steps to run the Retail Store Billing System on your local machine:
 
 1. Clone the repository to your local machine:
 
-	git clone https://github.com/your-username/retail-store.git
+	git clone https://github.com/tushar-gupta01/retail-store.git
    
 2. Open the project in your preferred IDE.
 
@@ -131,10 +131,10 @@ Make sure your application is running, and you can access the Swagger UI link lo
 
 ### SonarQube Analysis
 
-####`Prerequisites`
+#### `Prerequisites`
 - Download and install SonarQube.
 
-####`Steps`
+#### `Steps`
 
 1. Start the SonarQube Server (Make sure it is up and running)
 
@@ -146,18 +146,18 @@ Make sure your application is running, and you can access the Swagger UI link lo
 
 Check the SonarQube dashboard for code quality metrics at http://localhost:9000
 
-![SonarQube Code Quality Metrics](src/main/resources/public/SonarQube Code Quality Report.png)
+![SonarQube Code Quality Metrics](https://github.com/tushar-gupta01/retail-store/blob/main/src/main/resources/public/SonarQube%20Code%20Quality%20Report.png?raw=true)
 
 ### Code Coverage Report
  This project utilizes Jacoco for code coverage.
  
-####`Steps`
+#### `Steps`
 - Execute the following Maven command:
 
 	mvn clean test
 	 
 Locate the generated Jacoco report at target/site/jacoco/index.html.
 
-![Jacoco Code Coverage Report](src/main/resources/public/Jacoco Code Coverage Report.png)
+![Jacoco Code Coverage Report](https://github.com/tushar-gupta01/retail-store/blob/main/src/main/resources/public/Jacoco%20Code%20Coverage%20Report.png?raw=true)
 
 
